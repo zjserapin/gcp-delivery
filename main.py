@@ -13,9 +13,6 @@ def name(value):
     val = {"value": value}
     return jsonify(val)
 
-@app.route('/dog')
-def nova():
-    return 'my dogs name is nova'
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
