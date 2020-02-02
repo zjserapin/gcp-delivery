@@ -13,7 +13,7 @@ def name(value):
     val = {"value": value}
     return jsonify(val)
 
-@app.route('/novers')
+@app.route('/nova')
 def nova():
     val = {"value": "nova"}
     return jsonify(val)
